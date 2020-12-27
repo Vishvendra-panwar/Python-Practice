@@ -1,0 +1,4 @@
+This is a input file for exercise 17
+Let's test ' quotation
+Let's Test \ backslash
+Let's test " double quotes

@@ -1,0 +1,56 @@
+# Logic remembering
+- and
+- or
+- not
+- !=(not equal)
+- == (equal)
+- >=(greater-than-equal)
+- <=(less-than-equal)
+- True
+- False
+
+# The Truth Tables
+
+Not  ||| True?
+
+not False ||| True
+not True  ||| False
+
+
+OR ||| True?
+True or False ||| Ture
+True or true  ||| True
+False or True ||| True
+False or False||| False
+
+AND ||| True?
+True or False ||| False
+True or True  ||| True
+False or True ||| False
+False or False||| False
+
+NOT OR  ||| True
+
+not (True or False)  ||| False
+not (True or True)   ||| False
+not (False or True)  ||| False
+not (False or False) ||| True
+
+NOT And ||| True?
+not (True and False) ||| True
+not (True and True)  ||| False
+not (False and True) ||| True
+not (False and false)||| True
+
+!=  ||| True?
+
+1 != 0 ||| True
+1 != 0 ||| False
+0 != 1 ||| True
+0 != 0 ||| false
+
+==  ||| true?
+1 == 0  ||| False
+1 == 1  ||| True
+0 == 1  ||| False
+0 == 0  ||| True
