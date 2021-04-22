@@ -1,0 +1,6 @@
+String = input("Enter comma separated Values: ")
+print("Your string :",String)
+list = String.split(",")
+tuple = tuple(list)
+print('List : ', list)
+print('Tuple : ', tuple)
