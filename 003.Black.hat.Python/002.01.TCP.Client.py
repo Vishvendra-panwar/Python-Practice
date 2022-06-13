@@ -1,3 +1,4 @@
+# Does not work with HTTPS
 import socket
 
 target_host = "www.google.co.in"
