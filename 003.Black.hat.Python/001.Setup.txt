@@ -1,0 +1,37 @@
+We are studying Black Hat python version 2 by Justin Seitz and Tim arnold.
+
+1. Install Kali linux VM & Upgrade
+2. Install Python Virtual Environment Python-venv\
+
+┌──(root💀kali)-[/home/kali/Desktop/Python-Practice/003.Black.hat.Python]
+└─# python3 -m venv venv3
+                                                                                                                                                                        
+┌──(root💀kali)-[/home/kali/Desktop/Python-Practice/003.Black.hat.Python]
+└─# source venv3/bin/activate    
+                                                                                                                                                                        
+┌──(venv3)─(root💀kali)-[/home/kali/Desktop/Python-Practice/003.Black.hat.Python]
+└─# 
+
+That creates a new directory, bhp, in the current directory. We create a 
+new virtual environment by calling the venv package with the -m switch and 
+the name you want the new environment to have. We’ve called ours venv3, 
+but you can use any name you like. The scripts, packages, and Python 
+executable for the environment will live in that directory. Next, we activate 
+the environment by running the activate script. Notice that the prompt 
+changes once the environment is activated. The name of the environment 
+is prepended to your usual prompt (venv3 in our case). Later on, when 
+you’re ready to exit the environment, use the command deactivate.
+
+3. Installing packages using PIP
+
+                                                                                                                                                                       
+┌──(venv3)─(root💀kali)-[/home/kali/Desktop/Python-Practice/003.Black.hat.Python]
+└─# pip install lxml     
+Collecting lxml
+  Downloading lxml-4.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (7.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 10.4 MB/s eta 0:00:00
+Installing collected packages: lxml
+Successfully installed lxml-4.8.0
+  
+
+ 
