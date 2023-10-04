@@ -31,3 +31,11 @@ def main():
     print (a + b)
     print (int(a) + int (b))
 main()
+
+a = "23"
+print (a)
+print (type(a))
+
+b = int(a)
+print (b)
+print (type(b))
